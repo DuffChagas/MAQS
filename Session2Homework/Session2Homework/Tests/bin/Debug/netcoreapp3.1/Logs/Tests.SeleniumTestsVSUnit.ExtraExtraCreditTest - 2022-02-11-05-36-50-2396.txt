@@ -1,0 +1,144 @@
+
+2022-02-11 17:36:50.247
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.ExtraExtraCreditTest
+
+2022-02-11 17:36:52.498
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-02-11 17:36:53.688
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training3/loginpage.html
+
+2022-02-11 17:36:53.692
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-02-11 17:36:53.709
+INFORMATION:	Found element: By.CssSelector: #name
+
+2022-02-11 17:36:53.725
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-02-11 17:36:53.735
+INFORMATION:	Found element: By.CssSelector: #pw
+
+2022-02-11 17:36:53.745
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-02-11 17:36:53.753
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-02-11 17:36:54.414
+INFORMATION:	Navigated to: https://www.google.com
+
+2022-02-11 17:36:54.416
+ACTION:	Send keys 'NOT' to 'User name input'
+
+2022-02-11 17:37:04.502
+ERROR:	
+no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=98.0.4758.82)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass38_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+
+
+
+2022-02-11 17:37:04.504
+ERROR:	
+Timed out after 10 seconds: Waiting for visible element
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.ForVisibleElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawVisibleElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+  no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=98.0.4758.82)
+     at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass38_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+
+
+
+2022-02-11 17:37:04.615
+ERROR:	
+Failed to find: User name input
+Locator: By.CssSelector: #name
+Because: Timed out after 10 seconds: Waiting for visible element
+
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.<>c__DisplayClass54_0.<SendKeys>b__0()
+   at CognizantSoftvision.Maqs.Utilities.Helper.GenericWait.Wait[T](Func`1 waitFor, TimeSpan retryTime, TimeSpan timeout)
+  Timed out after 10 seconds: Waiting for visible element
+     at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.ForVisibleElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawVisibleElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+    no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=98.0.4758.82)
+       at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass38_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+
+
+
+2022-02-11 17:37:04.619
+ERROR:	
+Timed out waiting for <SendKeys>b__0 to return
+   at CognizantSoftvision.Maqs.Utilities.Helper.GenericWait.Wait[T](Func`1 waitFor, TimeSpan retryTime, TimeSpan timeout)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.SendKeys(String text)
+   at PageModel.LoginPageModel.EnterCredentials(String userName, String password) in C:\Users\daisy.chagas\source\repos\MAQS\Session2Homework\Session2Homework\PageModel\LoginPageModel.cs:line 74
+   at PageModel.LoginPageModel.LoginWithInvalidCredentials(String userName, String password) in C:\Users\daisy.chagas\source\repos\MAQS\Session2Homework\Session2Homework\PageModel\LoginPageModel.cs:line 100
+   at Tests.SeleniumTestsVSUnit.ExtraExtraCreditTest() in C:\Users\daisy.chagas\source\repos\MAQS\Session2Homework\Session2Homework\Tests\SeleniumTestsVSUnit.cs:line 83
+  Failed to find: User name input
+Locator: By.CssSelector: #name
+Because: Timed out after 10 seconds: Waiting for visible element
+
+     at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.<>c__DisplayClass54_0.<SendKeys>b__0()
+   at CognizantSoftvision.Maqs.Utilities.Helper.GenericWait.Wait[T](Func`1 waitFor, TimeSpan retryTime, TimeSpan timeout)
+    Timed out after 10 seconds: Waiting for visible element
+       at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.ForVisibleElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawVisibleElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+      no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=98.0.4758.82)
+         at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass38_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+
+
+
+2022-02-11 17:37:04.634
+ERROR:	Test failed
+
+2022-02-11 17:37:04.753
+INFORMATION:	Screenshot saved: C:\Users\daisy.chagas\source\repos\MAQS\Session2Homework\Session2Homework\Tests\bin\Debug\netcoreapp3.1\Logs\Tests.SeleniumTestsVSUnit.ExtraExtraCreditTest - 2022-02-11-05-36-50-2396 Final.Png

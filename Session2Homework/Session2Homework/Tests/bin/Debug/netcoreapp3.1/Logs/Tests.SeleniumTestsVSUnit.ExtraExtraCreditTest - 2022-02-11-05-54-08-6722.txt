@@ -1,0 +1,70 @@
+
+2022-02-11 17:54:08.679
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.ExtraExtraCreditTest
+
+2022-02-11 17:54:11.200
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-02-11 17:54:12.406
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training3/loginpage.html
+
+2022-02-11 17:54:12.409
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-02-11 17:54:12.426
+INFORMATION:	Found element: By.CssSelector: #name
+
+2022-02-11 17:54:12.444
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-02-11 17:54:12.453
+INFORMATION:	Found element: By.CssSelector: #pw
+
+2022-02-11 17:54:12.463
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-02-11 17:54:12.472
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-02-11 17:54:22.371
+INFORMATION:	Local driver: OpenQA.Selenium.Firefox.FirefoxDriver
+
+2022-02-11 17:54:24.184
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/
+
+2022-02-11 17:54:24.186
+ACTION:	Send keys 'NOT' to 'User name input'
+
+2022-02-11 17:54:24.255
+INFORMATION:	Element value changed: NOT
+
+2022-02-11 17:54:24.255
+ACTION:	Send keys 'Valid' to 'Password input'
+
+2022-02-11 17:54:24.313
+INFORMATION:	Element value changed: Valid
+
+2022-02-11 17:54:24.314
+ACTION:	Click 'Login button'
+
+2022-02-11 17:54:24.346
+INFORMATION:	Element clicking: Element (id = 0c562eff-77aa-4f07-a0d9-ed27d9ac9623) Text:Login Location: X:8 Y:290
+
+2022-02-11 17:54:24.395
+INFORMATION:	Checking to see if the lazy element 'Error message' is displayed
+
+2022-02-11 17:54:24.406
+INFORMATION:	Found element: By.CssSelector: #LoginError
+
+2022-02-11 17:54:24.422
+ERROR:	
+The given key 'TEST' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CognizantSoftvision.Maqs.BaseTest.ManagerStore.GetDriver[T](String key)
+   at Tests.SeleniumTestsVSUnit.ExtraExtraCreditTest() in C:\Users\daisy.chagas\source\repos\MAQS\Session2Homework\Session2Homework\Tests\SeleniumTestsVSUnit.cs:line 90
+
+2022-02-11 17:54:24.430
+ERROR:	Test failed
+
+2022-02-11 17:54:24.593
+INFORMATION:	Screenshot saved: C:\Users\daisy.chagas\source\repos\MAQS\Session2Homework\Session2Homework\Tests\bin\Debug\netcoreapp3.1\Logs\Tests.SeleniumTestsVSUnit.ExtraExtraCreditTest - 2022-02-11-05-54-08-6722 Final.Png

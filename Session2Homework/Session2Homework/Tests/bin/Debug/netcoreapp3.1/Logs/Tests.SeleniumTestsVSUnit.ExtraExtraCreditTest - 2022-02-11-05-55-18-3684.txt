@@ -1,0 +1,71 @@
+
+2022-02-11 17:55:18.376
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.ExtraExtraCreditTest
+
+2022-02-11 17:55:20.211
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-02-11 17:55:21.373
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training3/loginpage.html
+
+2022-02-11 17:55:21.376
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-02-11 17:55:21.394
+INFORMATION:	Found element: By.CssSelector: #name
+
+2022-02-11 17:55:21.410
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-02-11 17:55:21.419
+INFORMATION:	Found element: By.CssSelector: #pw
+
+2022-02-11 17:55:21.430
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-02-11 17:55:21.438
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-02-11 17:55:28.546
+INFORMATION:	Local driver: OpenQA.Selenium.Firefox.FirefoxDriver
+
+2022-02-11 17:55:30.392
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/
+
+2022-02-11 17:55:30.394
+ACTION:	Send keys 'NOT' to 'User name input'
+
+2022-02-11 17:55:30.463
+INFORMATION:	Element value changed: NOT
+
+2022-02-11 17:55:30.464
+ACTION:	Send keys 'Valid' to 'Password input'
+
+2022-02-11 17:55:30.522
+INFORMATION:	Element value changed: Valid
+
+2022-02-11 17:55:30.523
+ACTION:	Click 'Login button'
+
+2022-02-11 17:55:30.553
+INFORMATION:	Element clicking: Element (id = 00daee6c-2a82-4989-9bc8-1de1958550d0) Text:Login Location: X:8 Y:290
+
+2022-02-11 17:55:30.595
+INFORMATION:	Checking to see if the lazy element 'Error message' is displayed
+
+2022-02-11 17:55:30.605
+INFORMATION:	Found element: By.CssSelector: #LoginError
+
+2022-02-11 17:55:30.625
+ERROR:	
+Assert.AreEqual failed. Expected:<>. Actual:<Home Page - Magenic Automation Test Site>. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual)
+   at Tests.SeleniumTestsVSUnit.ExtraExtraCreditTest() in C:\Users\daisy.chagas\source\repos\MAQS\Session2Homework\Session2Homework\Tests\SeleniumTestsVSUnit.cs:line 89
+
+2022-02-11 17:55:30.631
+ERROR:	Test failed
+
+2022-02-11 17:55:30.794
+INFORMATION:	Screenshot saved: C:\Users\daisy.chagas\source\repos\MAQS\Session2Homework\Session2Homework\Tests\bin\Debug\netcoreapp3.1\Logs\Tests.SeleniumTestsVSUnit.ExtraExtraCreditTest - 2022-02-11-05-55-18-3684 Final.Png
