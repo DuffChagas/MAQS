@@ -1,0 +1,19 @@
+
+2022-02-15 13:58:17.163
+INFORMATION:	Setup test object for NUnit.Framework.Internal.TestExecutionContext+AdhocContext.AdhocTestMethod
+
+2022-02-15 13:58:17.171
+ERROR:	
+Invalid URI: The URI is empty.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver..ctor(String baseAddress)
+   at Tests.BaseTripTests.AssemblyInit(TestContext context) in C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\Tests\BaseTripTests.cs:line 23
+
+2022-02-15 13:58:17.173
+ERROR:	
+Invalid URI: The URI is empty.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver..ctor(String baseAddress)
+   at Tests.BaseTripTests.AssemblyInit(TestContext context) in C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\Tests\BaseTripTests.cs:line 23

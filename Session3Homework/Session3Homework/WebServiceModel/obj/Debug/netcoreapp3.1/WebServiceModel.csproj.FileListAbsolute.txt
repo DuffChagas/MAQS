@@ -1,0 +1,12 @@
+C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\WebServiceModel\bin\Debug\netcoreapp3.1\WebServiceModel.deps.json
+C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\WebServiceModel\bin\Debug\netcoreapp3.1\WebServiceModel.dll
+C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\WebServiceModel\bin\Debug\netcoreapp3.1\WebServiceModel.pdb
+C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\WebServiceModel\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.csproj.AssemblyReference.cache
+C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.AssemblyInfoInputs.cache
+C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.AssemblyInfo.cs
+C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.csproj.CoreCompileInputs.cache
+C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.csproj.CopyComplete
+C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.dll
+C:\Users\daisy.chagas\source\repos\MAQS\Session3Homework\Session3Homework\WebServiceModel\obj\Debug\netcoreapp3.1\WebServiceModel.pdb
